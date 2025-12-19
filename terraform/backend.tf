@@ -1,6 +1,6 @@
 # terraform {
 #   backend "s3" {
-#     bucket = "aws-cdc-iceberg-tf-state"
+#     bucket = "cdc-iceberg-data-bucket"
 #     key    = "terraform/state.tfstate"
 #     region = "ap-south-1"
 #   }
