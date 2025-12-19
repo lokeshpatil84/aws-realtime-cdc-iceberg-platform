@@ -1,4 +1,4 @@
-FROM bitnami/kafka:3.7.1
+FROM bitnami/kafka:latest
 
 ENV KAFKA_CFG_NODE_ID=1
 ENV KAFKA_CFG_PROCESS_ROLES=broker,controller
